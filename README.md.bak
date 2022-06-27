@@ -33,9 +33,3 @@ requires json body data including the field "item_ids", example:
 "item_ids": ["outfit.00004b4d01ca4ab0a70cf073ba74fefa", "outfit.001bf665330140cf854dcfb1cbff6b5f", "outfit.00234201fa2d4ee49a572d650c775213"]
 }
 ```
-returns a list of selected recommended items. In this dummy implementation these are simply the input items in the "item_ids" field.
-```
-{
-["outfit.00004b4d01ca4ab0a70cf073ba74fefa", "outfit.001bf665330140cf854dcfb1cbff6b5f", "outfit.00234201fa2d4ee49a572d650c775213"]
-}
-```
